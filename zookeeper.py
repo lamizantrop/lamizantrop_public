@@ -123,7 +123,7 @@ It looks like we will soon have more rabbits!"""
 sortie = 'exit'
 animals = [camel, lion, deer, goose, bat, rabbit]
 choix = '0'
-while choix == sortie :
+while choix != sortie :
     choix = input('Please enter the number of the habitat you would like to view: ')
     if choix != sortie :
         choix_int = int(choix)
